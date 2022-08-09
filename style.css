@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+html, body, figure, img, div, section, article, input, button, textarea,p, h1,h2, h3, h4, h5, h6, ul, li, a{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.caixa2 div{
+    align-items: center;
+    text-align: center;  
+} 
+
+.caixa1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    width: 100vw;
+    height: 100vh;
+    padding: center;
+    
+}
+
+
+.caixa2{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+    width: 500px;
+    height: 452px;
+    border: solid 1px #e6e6e6;
+    margin: 34px 20px 45px 20px;
+    
+}
+
+.caixa2 h3{
+    margin-top: 88px;
+    margin-bottom: 60px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 500;
+    Line height: 22px
+
+}
+
+.caixa2 label{
+    margin: 0 0 11px 50px;
+    margin-bottom: 11px;
+    font-size: 16px;
+
+}
+
+.inp1{
+background-color: d9d9d9;
+border: 1px solid #999;
+border-radius: 4px;
+padding: 5px;
+width: 400px;
+height: 60px;
+margin: 0 0 32px 50px;
+align-content: center;
+font-size: 18px;
+}
+.inp1:hover{
+    background-color: #f2f2f2;
+}
+
+
+.inp2{
+    padding: 0px 32px 0px 32px;
+    background-color: #1971C2;
+    width: 400px;
+    height: 60px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: white;
+
+}
+
+.inp2:hover{
+    background-color: #000066;
+}
